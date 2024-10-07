@@ -10,13 +10,14 @@ To install Cypress, first, you will need to install Node. Node.js is a cross-pla
 
 Cypress is built on Node.js and uses it to execute tests written in JavaScript. Node allows Cypress tests to run outside of a browser, enabling headless execution and server-side operations.
 
-To install Node.js go to this link and follow the installation instructions: https://nodejs.org/
+To install Node.js go to this link and follow the installation instructions:  
+[https://nodejs.org/](https://nodejs.org/)
 
 ---
 
 ### VS Code
-Visual Studio Code is a code editor. To install VS Code, go to this link and follow the installation instructions:
-https://code.visualstudio.com/download
+Visual Studio Code is a code editor. To install VS Code, go to this link and follow the installation instructions:  
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 ---
 
@@ -29,61 +30,61 @@ Node.js has a default package manager called NPM (Node Packet Manager). NPM allo
 ---
 
 ## Install Cypress
-Details on the Cypress NPM package can be found here:
-https://www.npmjs.com/package/cypress
+Details on the Cypress NPM package can be found here:  
+[https://www.npmjs.com/package/cypress](https://www.npmjs.com/package/cypress)
 
-And the official GitHub repo can be found here:
-https://github.com/cypress-io/cypress
+And the official GitHub repo can be found here:  
+[https://github.com/cypress-io/cypress](https://github.com/cypress-io/cypress)
 
 To install the Cypress NPM package open an empty folder in VS Code, then open a new terminal (and ensure that you are in the correct directory).
 
-![GitHub Screenshot - new terminal](https://github.com/w4dd325/cypress/assets/86320001/34ccd791-d531-4dc1-84a4-2b1ae16d7e49)
+![new-terminal](https://github.com/user-attachments/assets/4ae433f5-a70e-40e1-849b-b8e72d2febd4)
 
 ### Install the Cypress NPM package using the following command: 
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/576ec015-0f5f-44a6-a3c7-4f487b2c7ba0)
+![install-cypress](https://github.com/user-attachments/assets/4c6ce99c-3190-441c-aa93-df231ad59b24)
 
 ### Launch Cypress by running the following command:
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/45a0ee35-6b50-47a2-a6ee-4cf968ab31f6)
+![run-cypress](https://github.com/user-attachments/assets/aaf5a409-5dfd-4932-b0a7-8c2a1af8bc04)
 
 ### Select 'E2E Testing'
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/b8b85c4a-138f-4d0a-915c-7501527934fa)
+![e2e](https://github.com/user-attachments/assets/dd0651cd-5a6d-462d-9b06-347e5d59e304)
 
 ### Accept the basic installation of the fixtures file etc.
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/1edeec0e-b3dd-4e2b-9680-6fe2556815d2)
+![basic-install-config](https://github.com/user-attachments/assets/c1337378-5fd0-4a72-a8c2-db798e0c5c06)
 
 ### Select a browser
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/b098cfe9-d647-481d-8332-0054fdd3340b)
+![select-browser](https://github.com/user-attachments/assets/ed0fc606-dd6e-47bb-b297-2f4e1603cbb3)
 
 > [!NOTE]
 > Electron is a built-in browser for Cypress and usually isn't affected by the same security/limitations as the other browsers. That said, we usually aim to use Chrome as this is the default for most of our apps etc.
 
 ### Select a spec option.
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/54a4a8f3-e853-4142-97a5-f464a4eddddc)
+![e2e](https://github.com/user-attachments/assets/cd990252-30af-4587-95b0-273f818a6e23)
 
 'Scaffold example specs' will provide multiple spec file examples.
 'Create new spec' will provide a singular spec file example.
 
 ### Then enter the path of where to store the script (usually the default option) and click 'Create Spec'.
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/1ff5f9ff-35f9-4bd7-af9a-898fc2562829)
+![spec-path-name](https://github.com/user-attachments/assets/ab480058-ef12-42f5-acab-37f4116a51b8)
 
 ### Then click 'Okay, run the spec'
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/8050beee-7199-4162-9cfd-fa778de0a4be)
+![run-spec](https://github.com/user-attachments/assets/dad48f37-c12d-4ffd-8113-0bd0a2104e4f)
 
 ### At this point, the script should launch and run through the example test script (aka scaffolding script)
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/18291227-9fdc-4c0c-a3b9-d7897eec11a8)
+![kitchen-sink-screenshot](https://github.com/user-attachments/assets/fbc6a014-4788-4593-825d-e532a7122260)
 
 ### You should now have a folder structure in VS Code that looks like this: 
 
-![image](https://github.com/w4dd325/cypress/assets/86320001/979dc93d-bda4-4ea5-a366-1712705b65a7)
+![folder-structure](https://github.com/user-attachments/assets/89dfb786-eb67-4b48-93d9-b9c3de28da91)
 
 ---
 
